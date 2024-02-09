@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading {
+    justify-content: center;
+    text-transform: uppercase;
+    height: 70px;
+    background-color: #15161D;
+    align-items: center;
+    display: flex;
+    border-radius:200px 0;
+    width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    color: white;
+  
+
+
+  
+    
+    
+}
+.product img{
+    width: 100%;
+
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    width: 100%;
+    /* margin: auto; */
+    padding: 30px 150px;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product{
+    border: 1px solid rgba(128, 128, 128, 0.484);
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  
+    background-size: cover;
+  background-repeat: no-repeat;
+
+
+}
+.rating
+{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    color: #D31737;
+    gap: 10px;
+}
+
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+.social-media button{
+    background-color: white;
+    border: none;
+    font-size: 19px;
+}
+.category{
+    text-align: center;
+}
+.p_name{
+    text-transform: uppercase;
+    padding-top: 10px;
+    /* width: 380px; */
+}
+.p_name h2{
+    font-size: 19px;
+    text-align: center;
+}
+.price{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: #D31737;
+
+}
+.add-to-cart{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  
+}
+.add-to-cart button{
+    width: 80%;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    position: relative;
+    top: 55px;
+}
+.add-to-cart button:hover{
+    background-color: #fff;
+    color: #D31737;
+    border: 3px solid #D31737;
+    box-shadow: 0 3px 10px #D31737;
+}
+.add-to-cart button:active{
+    scale: .8;
+
+}
+.product:hover .add-to-cart button{
+    top: 0;
+}
+.product:hover{
+    box-shadow: 0 3px x gray;
+    border: 2px solid #D31737;
+
+}
